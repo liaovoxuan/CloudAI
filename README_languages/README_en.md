@@ -1,82 +1,63 @@
 # CloudAI
 
-CloudAI is a cross-platform AI assistant.
+CloudAI is a lightweight, cross-platform desktop AI assistant for chat, image
+understanding, and OCR. It does not require a CloudAI account and only sends
+data when the user explicitly makes an AI request.
+
+> **Repository status:** this repository currently hosts CloudAI documentation
+> and release information. The source code and reproducible build instructions
+> have not yet been published here. Until then, treat CloudAI as downloadable
+> software rather than a fully reproducible open-source project.
+
+[简体中文](README_zh-CN.md)
 
 ## Features
 
--   AI conversation
--   Cloud AI API integration
--   Multi-platform desktop application
--   Multi-architecture builds
--   Graphical interface
--   Multi-language support
+- AI chat
+- Image understanding and OCR
+- User-configured cloud AI services
+- Graphical, multilingual desktop interface
+- QEMU/UTM command conversion plugin
 
-## Supported Platforms
+## Supported platforms
 
-### Desktop
+- Windows x64
+- macOS
+- Linux x86_64 and ARM64
+- HarmonyOS / OpenHarmony
 
--   Windows x64
--   Windows ARM64
--   macOS Intel
--   macOS Apple Silicon
--   Linux x86_64
--   Linux ARM64
+## Download
 
-### Other Platforms
+Download the package matching your platform from
+[GitHub Releases](https://github.com/liaovoxuan/CloudAI/releases).
 
--   HarmonyOS
--   OpenHarmony
+Published package formats may vary by version. Check the release notes before
+downloading; a platform listed above may not be available in every release.
 
-## Installation
+The macOS build is not currently notarized with an Apple Developer certificate.
+macOS may require manual approval in Privacy & Security.
 
-### Linux
+HarmonyOS packages are built with DevEco Studio and signed during the release
+process. Signing credentials are not stored in this repository.
 
-AppImage:
+## Privacy
 
-1.  Download the Linux AppImage package.
-2.  Add execution permission:
+CloudAI itself does not require an account or collect analytics. Requests and
+attachments sent to a configured AI provider are subject to that provider's
+privacy policy. See the [Privacy Policy](docs/PRIVACY.md).
 
-``` bash
-chmod +x CloudAI.AppImage
-```
+## Documentation
 
-3.  Run the application:
-
-``` bash
-./CloudAI.AppImage
-```
-
-Deb packages can be installed with:
-
-``` bash
-sudo apt install ./CloudAI.deb
-```
-
-### macOS
-
-The macOS version is currently not signed with an Apple Developer
-certificate.
-
-When opening for the first time, users may need to allow the application
-manually in macOS Security settings.
-
-### HarmonyOS
-
-The HarmonyOS version is built with the official HarmonyOS development
-toolchain.
-
-Development and packaging use DevEco Studio. HarmonyOS applications are
-built as HAP/App packages and require proper signing configuration
-before distribution. citeturn0search1turn0search3
+- [Changelog](docs/CHANGELOG.md)
+- [Contributing](docs/CONTRIBUTING.md)
+- [Security Policy](docs/SECURITY.md)
+- [Support](docs/SUPPORT.md)
 
 ## License
 
-MIT License.
+The repository currently includes an MIT license notice. The licensing status
+will be clarified alongside publication of the corresponding source code.
 
 ## Developer
 
 Liao Boxuan
-
-## Date
-
-2026-08-02

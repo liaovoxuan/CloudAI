@@ -1,0 +1,13 @@
+.DS_Store
+*.baiduyun.uploading.cfg
+Releases/
+build/
+dist/
+release/
+.venv*/
+__pycache__/
+*.py[cod]
+*.log
+*.p12
+*.cer
+*.p7b

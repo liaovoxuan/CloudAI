@@ -4,7 +4,7 @@ CloudAI 是一款轻量级跨平台桌面 AI 助手，支持智能问答、识�
 
 > **仓库状态：**本仓库目前用于存放 CloudAI 文档与发行信息，源码及可复现构建说明尚未发布。因此在源码发布前，它应被视为提供公开下载的软件，而不是可复现构建的完整开源项目。
 
-[English](README.md)
+[English](README_en.md)
 
 ## 功能
 
@@ -33,14 +33,14 @@ HarmonyOS 软件包使用 DevEco Studio 构建并在发布时签名；签名凭�
 
 ## 隐私
 
-CloudAI 本身不要求账户，也不收集分析数据。发送给用户所配置 AI 服务商的请求和附件，受对应服务商隐私政策约束。详见[隐私政策](docs/PRIVACY_zh-CN.md)。
+CloudAI 本身不要求账户，也不收集分析数据。发送给用户所配置 AI 服务商的请求和附件，受对应服务商隐私政策约束。详见[隐私政策](../docs/PRIVACY_zh-CN.md)。
 
 ## 文档
 
-- [更新日志](docs/CHANGELOG_zh-CN.md)
-- [参与贡献](docs/CONTRIBUTING_zh-CN.md)
-- [安全政策](docs/SECURITY_zh-CN.md)
-- [支持](docs/SUPPORT_zh-CN.md)
+- [更新日志](../docs/CHANGELOG_zh-CN.md)
+- [参与贡献](../docs/CONTRIBUTING_zh-CN.md)
+- [安全政策](../docs/SECURITY_zh-CN.md)
+- [支持](../docs/SUPPORT_zh-CN.md)
 
 ## 许可证
 

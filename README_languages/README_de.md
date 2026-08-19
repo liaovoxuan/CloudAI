@@ -1,3 +1,3 @@
 # CloudAI (de)
 
-Please refer to the English README for complete documentation.
+Please refer to the [English README](README_en.md) for complete documentation.

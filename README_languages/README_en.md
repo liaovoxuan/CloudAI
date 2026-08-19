@@ -44,14 +44,14 @@ process. Signing credentials are not stored in this repository.
 
 CloudAI itself does not require an account or collect analytics. Requests and
 attachments sent to a configured AI provider are subject to that provider's
-privacy policy. See the [Privacy Policy](docs/PRIVACY.md).
+privacy policy. See the [Privacy Policy](../docs/PRIVACY.md).
 
 ## Documentation
 
-- [Changelog](docs/CHANGELOG.md)
-- [Contributing](docs/CONTRIBUTING.md)
-- [Security Policy](docs/SECURITY.md)
-- [Support](docs/SUPPORT.md)
+- [Changelog](../docs/CHANGELOG.md)
+- [Contributing](../docs/CONTRIBUTING.md)
+- [Security Policy](../docs/SECURITY.md)
+- [Support](../docs/SUPPORT.md)
 
 ## License
 

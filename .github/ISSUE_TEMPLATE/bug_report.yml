@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible problem in CloudAI
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues first. Do not include API keys, tokens, private prompts or personal data. Report vulnerabilities through the Security tab instead.
+  - type: input
+    id: version
+    attributes:
+      label: CloudAI version
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Operating system and architecture
+      placeholder: "macOS 15 arm64, Windows 11 x64, Linux ARM64, HarmonyOS 2in1..."
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: Package format and filename
+      placeholder: "ZIP, AppImage, DEB, RPM or HAP"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest complete sequence that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs or screenshots
+      description: Remove secrets, personal information and private content before submitting.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched existing issues and removed sensitive information.
+          required: true

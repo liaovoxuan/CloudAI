@@ -1,13 +1,59 @@
 .DS_Store
+**/.DS_Store
 *.baiduyun.uploading.cfg
-Releases/
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Distribution binaries are uploaded to GitHub Releases. Keep their docs and
+# historical checksum metadata in the source repository.
+/Releases/*
+!/Releases/README.md
+!/Releases/Legacy/
+/Releases/Legacy/**
+!/Releases/Legacy/**/
+!/Releases/Legacy/**/*.md
+!/Releases/Legacy/**/SHA256SUMS
 build/
 dist/
 release/
 .venv*/
 __pycache__/
 *.py[cod]
-*.log
+
+# HarmonyOS / DevEco Studio local and generated files
+.idea/
+.hvigor/
+oh_modules/
+**/build/
+**/build-cpp/
+local.properties
 *.p12
+*.pfx
+*.jks
+*.keystore
+*.csr
 *.cer
 *.p7b
+material/
+signature/
+
+# CloudAI source-tree runtime data
+Source/CloudAI/desktop/cloud_chats/
+Source/CloudAI/desktop/exports/
+Source/CloudAI/desktop/logs/
+Source/CloudAI/desktop/config/
+Source/CloudAI/desktop/config.json
+Source/CloudAI/desktop/plugins/
+Source/CloudAI/**/cloudai_secrets.json
+Source/CloudAI/**/__pycache__/
+Source/CloudAI/**/*.pyc
